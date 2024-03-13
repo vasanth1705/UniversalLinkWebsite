@@ -8,7 +8,7 @@
     ],
     "components": [
         {
-            "/": "/verify/*",
+            "paths": ["*"],
             "exclude": true,
             "comment": "Intended to match URLs with the path starting with /verify/, ignoring query parameters"
         }
