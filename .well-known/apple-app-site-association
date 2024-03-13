@@ -1,19 +1,33 @@
 {
-    "appIDs": [
-        "9PZTJGLGP5.com.yap.b2b.baj.qa",
-        "9PZTJGLGP5.com.yap.b2b.baj.stg",
-        "9PZTJGLGP5.com.yap.b2b.baj",
-        "9PZTJGLGP5.com.yap.b2b.baj.preprod",
-        "9PZTJGLGP5.com.yap.b2b.baj.dev"
-    ],
-    "components": [
-        {
-            "paths": ["*"],
-            "exclude": true,
-            "comment": "Intended to match URLs with the path starting with /verify/, ignoring query parameters"
-        }
-    ],
-    "defaults": {
-        "caseSensitive": false
+    "applinks": {
+        "apps": [
+            "9PZTJGLGP5.com.yap.b2b.baj.qa",
+            "9PZTJGLGP5.com.yap.b2b.baj.stg",
+            "9PZTJGLGP5.com.yap.b2b.baj",
+            "9PZTJGLGP5.com.yap.b2b.baj.preprod",
+            "9PZTJGLGP5.com.yap.b2b.baj.dev"
+        ],
+        "details": [
+            {
+                "appID": "9PZTJGLGP5.com.yap.b2b.baj.qa",
+                "paths": ["*"]
+            },
+            {
+                "appID": "9PZTJGLGP5.com.yap.b2b.baj.stg",
+                "paths": ["*"]
+            },
+            {
+                "appID": "9PZTJGLGP5.com.yap.b2b.baj",
+                "paths": ["*"]
+            },
+            {
+                "appID": "9PZTJGLGP5.com.yap.b2b.baj.preprod",
+                "paths": ["*"]
+            },
+            {
+                "appID": "9PZTJGLGP5.com.yap.b2b.baj.dev",
+                "paths": ["*"]
+            }
+        ]
     }
 }
